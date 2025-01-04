@@ -5,6 +5,237 @@
 	(uuid "c8b32050-fabe-49d4-b213-dd23b367e349")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Amplifier_Operational:AD817"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AD817"
+				(at 1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad817.pdf"
+				(at 1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Speed, Low Power Wide Supply Range Operational Amplifier, DIP-8/SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP?8?W7.62mm* SO?8?3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AD817_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AD817_1_1"
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "NULL"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 2.54 270)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 6.35)
+					(name "NULL"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1651,211 +1882,6 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:OPAMP"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "${SIM.PARAMS}"
-				(at 3.81 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "kicad_builtin_opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OPAMP_0_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "OPAMP_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Simulation_SPICE:PNP"
 			(pin_numbers hide)
 			(pin_names
@@ -2073,7 +2099,7 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:VSIN"
+		(symbol "Simulation_SPICE:VPULSE"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.0254)
@@ -2090,7 +2116,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "VSIN"
+			(property "Value" "VPULSE"
 				(at 2.54 0 0)
 				(effects
 					(font
@@ -2117,7 +2143,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Voltage source, sinusoidal"
+			(property "Description" "Voltage source, pulse"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2135,16 +2161,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Params" "dc=0 ampl=1 f=1k ac=1"
-				(at 2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Sim.Type" "SIN"
+			(property "Sim.Type" "PULSE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2163,7 +2180,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "simulation ac vac"
+			(property "Sim.Params" "y1=0 y2=1 td=2n tr=2n tf=2n tw=50n per=100n"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "simulation"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2172,23 +2198,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "VSIN_0_0"
-				(arc
-					(start 0 0)
-					(mid -0.635 0.6323)
-					(end -1.27 0)
-					(stroke
-						(width 0)
-						(type default)
+			(symbol "VPULSE_0_0"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy -1.397 -0.762) (xy -1.143 0.762) (xy -0.127 0.762) (xy 0.127 -0.762) (xy 1.143 -0.762)
+						(xy 1.397 0.762) (xy 2.032 0.762)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.635 -0.6323)
-					(end 1.27 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -2206,7 +2221,7 @@
 					)
 				)
 			)
-			(symbol "VSIN_0_1"
+			(symbol "VPULSE_0_1"
 				(circle
 					(center 0 0)
 					(radius 2.54)
@@ -2219,7 +2234,7 @@
 					)
 				)
 			)
-			(symbol "VSIN_1_1"
+			(symbol "VPULSE_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -2422,12 +2437,6 @@
 		(uuid "383083dc-6b5b-4ec4-8994-005b5f15389a")
 	)
 	(junction
-		(at 64.77 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38d07d24-a1b2-40e4-9352-7cada7c7a433")
-	)
-	(junction
 		(at 153.67 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2594,6 +2603,20 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e82f1604-f5b6-42c2-b58f-4f7cd369f82d")
+	)
+	(junction
+		(at 64.77 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2a841d5-1213-4193-b236-04f8a577c6a0")
+	)
+	(no_connect
+		(at 163.83 109.22)
+		(uuid "be1b2bf6-5671-452f-acca-25bcfdd3b6c0")
+	)
+	(no_connect
+		(at 166.37 109.22)
+		(uuid "c7b74553-c8ce-4dcd-bab4-87e78dfb589c")
 	)
 	(wire
 		(pts
@@ -2877,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 93.98) (xy 48.26 97.79)
+			(xy 48.26 95.25) (xy 48.26 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3197,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 93.98) (xy 64.77 97.79)
+			(xy 64.77 95.25) (xy 64.77 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3344,6 +3367,16 @@
 			(type default)
 		)
 		(uuid "aa1f9ab2-54f4-4b39-946f-e9f8abbcf0ea")
+	)
+	(wire
+		(pts
+			(xy 48.26 86.36) (xy 48.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af67ab2d-771f-46fe-b433-303591f451c2")
 	)
 	(wire
 		(pts
@@ -3517,6 +3550,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 87.63) (xy 64.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eabc47da-4bb1-48c5-99e9-aa87276cd561")
+	)
+	(wire
+		(pts
 			(xy 48.26 97.79) (xy 50.8 97.79)
 		)
 		(stroke
@@ -3628,6 +3671,28 @@
 		(uuid "044f7754-5166-4806-8a2a-fcd745c0de6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 253.6589 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pre-cur"
+		(shape input)
+		(at 105.41 86.36 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a9ae4de-d8d9-436e-bea5-242f9d54ad99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 75.7548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+		(property "Footprint" "Samacsys:B32529C105J"
 			(at 105.41 104.14 0)
 			(effects
 				(font
@@ -3845,7 +3910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 95.25 97.79 0)
 			(effects
 				(font
@@ -3888,112 +3953,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:VSIN")
-		(at 55.88 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24ed6475-a46c-4c57-b519-df9c8cbd3297")
-		(property "Reference" "V1"
-			(at 51.816 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VSIN"
-			(at 55.626 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Samacsys:395443002"
-			(at 55.88 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 55.88 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage source, sinusoidal"
-			(at 55.88 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 55.88 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "dc=0 ampl=30 f=60 td=0 theta=0 phase=0 ac=1"
-			(at 68.326 122.936 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Type" "SIN"
-			(at 55.88 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 55.88 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ddc0fe3-3e97-44c3-a90b-13ff0ef1626d")
-		)
-		(pin "1"
-			(uuid "6d2a183d-fc14-4f7d-85e9-e4c6495fa4b6")
-		)
-		(instances
-			(project "Untitled"
-				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
-					(reference "V1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 181.61 110.49 0)
 		(unit 1)
@@ -4021,7 +3980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_MELF_MMB-0207"
 			(at 181.61 110.49 0)
 			(effects
 				(font
@@ -4256,7 +4215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 194.31 102.87 0)
 			(effects
 				(font
@@ -4431,7 +4390,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 187.96 102.87 0)
 			(effects
 				(font
@@ -4504,6 +4463,109 @@
 			(project ""
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VPULSE")
+		(at 55.88 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "639486a2-661e-4f70-b2fb-2f0ee88e88ff")
+		(property "Reference" "V1"
+			(at 56.134 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VPULSE"
+			(at 55.626 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:395443002"
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage source, pulse"
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "PULSE"
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "y1=0 y2=20 td=0 tr=20m tf=20m tw=10 per=20"
+			(at 71.374 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddc653da-f221-4902-a0a7-230d54f1dfd3")
+		)
+		(pin "2"
+			(uuid "e0191f9b-a49b-4b1a-9ce4-af1a4201841a")
+		)
+		(instances
+			(project ""
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
+					(reference "V1")
 					(unit 1)
 				)
 			)
@@ -4639,7 +4701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-3P-3_Horizontal_TabDown"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 111.76 83.82 0)
 			(effects
 				(font
@@ -5107,7 +5169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 48.26 110.49 0)
 			(effects
 				(font
@@ -5277,7 +5339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 64.77 110.49 0)
 			(effects
 				(font
@@ -5383,7 +5445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-3P-3_Horizontal_TabDown"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 107.95 106.68 0)
 			(effects
 				(font
@@ -5501,7 +5563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 83.82 97.79 0)
 			(effects
 				(font
@@ -5638,7 +5700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 161.29 110.49 0)
 			(effects
 				(font
@@ -5844,7 +5906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-3P-3_Horizontal_TabDown"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 100.33 100.33 0)
 			(effects
 				(font
@@ -5929,6 +5991,128 @@
 			(project "Untitled"
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:AD817")
+		(at 166.37 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af27b1f7-6f1b-4f8d-b8cd-c6cdd6da3807")
+		(property "Reference" "U1"
+			(at 164.592 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD817"
+			(at 164.084 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad817.pdf"
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Speed, Low Power Wide Supply Range Operational Amplifier, DIP-8/SOIC-8"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/cibo/Documents/spice/opamps.lib"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "AD817"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "2=1 3=2 4=50 6=46 7=99"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "bea7b095-80a6-43a1-ac6b-376a5547d9b3")
+		)
+		(pin "6"
+			(uuid "06776169-96c8-4682-9a71-278ecedf1bd1")
+		)
+		(pin "8"
+			(uuid "2437ccb9-da5b-486f-b468-a04b6a8320e0")
+		)
+		(pin "7"
+			(uuid "20be602f-51f5-4810-b884-73135c322825")
+		)
+		(pin "3"
+			(uuid "79d2fbc4-4bd5-4f40-998e-b4c860b6129d")
+		)
+		(pin "4"
+			(uuid "9d7013ea-af7b-4863-b2c2-38d463fe31a4")
+		)
+		(pin "2"
+			(uuid "2b944c9b-1e3d-4221-98b1-0a4ab40ebab4")
+		)
+		(pin "1"
+			(uuid "c672a602-6ddd-43bf-84e3-1f0d6a7efe5e")
+		)
+		(instances
+			(project "walt-j-shunt"
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6030,7 +6214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_MELF_MMB-0207"
 			(at 185.42 91.44 0)
 			(effects
 				(font
@@ -6344,7 +6528,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 64.77 90.17 270)
+		(at 64.77 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6353,7 +6537,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1cf97f1-dacc-4425-b027-5ca8fd9b0045")
 		(property "Reference" "D3"
-			(at 67.31 88.5824 90)
+			(at 67.31 89.8524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6546,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 67.31 91.1224 90)
+			(at 67.31 92.3924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,8 +6554,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 64.77 90.17 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 64.77 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6380,7 +6564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 90.17 0)
+			(at 64.77 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6389,7 +6573,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 64.77 90.17 0)
+			(at 64.77 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6398,7 +6582,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 64.77 90.17 0)
+			(at 64.77 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,7 +6591,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 64.77 90.17 0)
+			(at 64.77 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +6600,7 @@
 			)
 		)
 		(property "Sim.Library" "/Users/cibo/Documents/spice/d.lib"
-			(at 64.77 90.17 0)
+			(at 64.77 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,7 +6609,7 @@
 			)
 		)
 		(property "Sim.Name" "1N5819"
-			(at 64.77 90.17 0)
+			(at 64.77 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,7 +6698,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 48.26 90.17 270)
+		(at 48.26 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6523,7 +6707,7 @@
 		(fields_autoplaced yes)
 		(uuid "da54a1e5-534d-4c8a-9e19-cf64ed3f4a0b")
 		(property "Reference" "D1"
-			(at 50.8 88.5824 90)
+			(at 50.8 89.8524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +6716,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 50.8 91.1224 90)
+			(at 50.8 92.3924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,8 +6724,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 48.26 90.17 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 48.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6550,7 +6734,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 90.17 0)
+			(at 48.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6559,7 +6743,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 48.26 90.17 0)
+			(at 48.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,7 +6752,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 48.26 90.17 0)
+			(at 48.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,7 +6761,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 48.26 90.17 0)
+			(at 48.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6586,7 +6770,7 @@
 			)
 		)
 		(property "Sim.Library" "/Users/cibo/Documents/spice/d.lib"
-			(at 48.26 90.17 0)
+			(at 48.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,7 +6779,7 @@
 			)
 		)
 		(property "Sim.Name" "1N5819"
-			(at 48.26 90.17 0)
+			(at 48.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,122 +6997,6 @@
 			(project "Untitled"
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 166.37 101.6 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff1c4e5e-cd2d-4116-af36-9d8a438c17ec")
-		(property "Reference" "U1"
-			(at 172.974 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 171.9265 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm"
-			(at 166.37 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 166.37 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-			(at 166.37 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=2 2=1 3=99 4=50 5=46"
-			(at 166.37 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 166.37 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/Users/cibo/Documents/spice/opamps.lib"
-			(at 166.37 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "AD817"
-			(at 166.37 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "15206b2e-5b85-499a-97f1-7a63a0ef6d3b")
-		)
-		(pin "2"
-			(uuid "7e0196a5-79b9-48f6-8f65-4fd20ead8524")
-		)
-		(pin "1"
-			(uuid "23e4cc2b-de9d-426c-ba74-63aa46e126b0")
-		)
-		(pin "3"
-			(uuid "467dfa13-478e-4328-861b-e7e1465a271b")
-		)
-		(pin "4"
-			(uuid "b5d2688f-7679-4052-a3ce-df1b4746b4a9")
-		)
-		(instances
-			(project "Untitled"
-				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
-					(reference "U1")
 					(unit 1)
 				)
 			)

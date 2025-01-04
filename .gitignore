@@ -4,3 +4,6 @@
 /walt-j-shunt-backups
 /~walt-j-shunt.kicad_sch.lck
 *.lck
+*.log
+*-cache
+fp-info-cache
