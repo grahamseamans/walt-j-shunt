@@ -21,23 +21,8 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(152, 78, 163)",
-          "signal": "I(D1)",
-          "trace_type": 258
-        },
-        {
-          "color": "rgb(255, 127, 0)",
-          "signal": "I(D2)",
-          "trace_type": 258
-        },
-        {
-          "color": "rgb(255, 255, 51)",
-          "signal": "I(D3)",
-          "trace_type": 258
-        },
-        {
-          "color": "rgb(166, 86, 40)",
-          "signal": "I(D4)",
+          "color": "rgb(77, 175, 74)",
+          "signal": "I(R1)",
           "trace_type": 258
         }
       ]
