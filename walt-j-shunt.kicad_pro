@@ -609,6 +609,18 @@
     [
       "a76e510a-b9e5-424d-a4ef-8d4b312e6e9d",
       "reg"
+    ],
+    [
+      "bcc0eb4b-ef74-4b84-b6d5-2b5ad0313de0",
+      "current_source"
+    ],
+    [
+      "6786b1de-24b3-41c2-ac13-9174f173ccc1",
+      "current_source1"
+    ],
+    [
+      "5776d193-19c0-48fa-87d5-95c354ac77eb",
+      "reg1"
     ]
   ],
   "text_variables": {}
