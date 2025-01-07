@@ -531,7 +531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02294e94-2cf1-45ce-9764-bca7bb6aa664")
-		(property "Reference" "Q1"
+		(property "Reference" "Q4"
 			(at 133.35 91.44 90)
 			(effects
 				(font
@@ -651,7 +651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8018b9a4-1e04-4687-aba3-1ba15f2012f8")
-		(property "Reference" "R3"
+		(property "Reference" "R14"
 			(at 140.97 100.33 90)
 			(effects
 				(font
@@ -723,7 +723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc5dec9f-3565-438c-a5d8-9531134c2489")
-		(property "Reference" "R2"
+		(property "Reference" "R13"
 			(at 140.97 92.71 90)
 			(effects
 				(font
