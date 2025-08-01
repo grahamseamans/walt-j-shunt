@@ -129,6 +129,11 @@
           "color": "rgb(228, 26, 28)",
           "signal": "P(R9)",
           "trace_type": 272
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "V(pos_reg_out)",
+          "trace_type": 257
         }
       ]
     }
