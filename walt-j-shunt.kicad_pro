@@ -633,12 +633,12 @@
       "Root"
     ],
     [
-      "a76e510a-b9e5-424d-a4ef-8d4b312e6e9d",
-      "reg"
-    ],
-    [
       "bcc0eb4b-ef74-4b84-b6d5-2b5ad0313de0",
       "current_source"
+    ],
+    [
+      "a76e510a-b9e5-424d-a4ef-8d4b312e6e9d",
+      "reg"
     ]
   ],
   "text_variables": {}

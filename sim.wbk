@@ -4,7 +4,7 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 100m 60",
+        ".tran 100m 5",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -21,117 +21,17 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(166, 216, 84)",
-          "signal": "P(R1)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(55, 126, 184)",
-          "signal": "P(R10)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(77, 175, 74)",
-          "signal": "P(R11)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(152, 78, 163)",
-          "signal": "P(R12)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(255, 127, 0)",
-          "signal": "P(R13)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(102, 194, 165)",
-          "signal": "P(R14)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(252, 141, 98)",
-          "signal": "P(R15)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(141, 160, 203)",
-          "signal": "P(R16)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(231, 138, 195)",
-          "signal": "P(R17)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(166, 216, 84)",
-          "signal": "P(R18)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(255, 217, 47)",
-          "signal": "P(R19)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(231, 138, 195)",
-          "signal": "P(R2)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(229, 196, 148)",
-          "signal": "P(R20)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(179, 179, 179)",
-          "signal": "P(R21)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(228, 26, 28)",
-          "signal": "P(R22)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(55, 126, 184)",
-          "signal": "P(R23)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(255, 217, 47)",
-          "signal": "P(R3)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(247, 129, 191)",
-          "signal": "P(R4)",
-          "trace_type": 272
-        },
-        {
           "color": "rgb(166, 86, 40)",
-          "signal": "P(R5)",
-          "trace_type": 272
+          "signal": "I(R1)",
+          "trace_type": 258
         },
         {
-          "color": "rgb(229, 196, 148)",
-          "signal": "P(R7)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(179, 179, 179)",
-          "signal": "P(R8)",
+          "color": "rgb(55, 126, 184)",
+          "signal": "P(XQ2)",
           "trace_type": 272
         },
         {
           "color": "rgb(228, 26, 28)",
-          "signal": "P(R9)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(255, 255, 51)",
           "signal": "V(pos_reg_out)",
           "trace_type": 257
         }

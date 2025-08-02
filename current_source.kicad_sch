@@ -499,7 +499,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 95.25) (xy 138.43 97.79)
+			(xy 138.43 92.71) (xy 138.43 97.79)
 		)
 		(stroke
 			(width 0)
@@ -549,7 +549,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 95.25) (xy 143.51 97.79)
+			(xy 143.51 92.71) (xy 143.51 97.79)
 		)
 		(stroke
 			(width 0)
@@ -680,7 +680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/cibo/Documents/spice/mos.lib"
+		(property "Sim.Library" "/Users/cibo/pcb/spice/mos.lib"
 			(at 133.35 100.33 0)
 			(effects
 				(font
@@ -711,74 +711,6 @@
 			(project "walt-j-shunt"
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349/bcc0eb4b-ef74-4b84-b6d5-2b5ad0313de0"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 140.97 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7debe456-d91a-44e1-babc-ff05a67f34c4")
-		(property "Reference" "R4"
-			(at 140.97 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20r"
-			(at 140.97 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0b37701d-6705-400b-9d62-6d1cf6fef336")
-		)
-		(pin "1"
-			(uuid "7daed139-138f-4353-9d02-05d6cec69033")
-		)
-		(instances
-			(project "walt-j-shunt"
-				(path "/c8b32050-fabe-49d4-b213-dd23b367e349/bcc0eb4b-ef74-4b84-b6d5-2b5ad0313de0"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -860,8 +792,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dc5dec9f-3565-438c-a5d8-9531134c2489")
-		(property "Reference" "R2"
+		(uuid "d22de9f5-9369-459f-8ac2-e5b6e12e104c")
+		(property "Reference" "R13"
 			(at 140.97 97.79 90)
 			(effects
 				(font
@@ -905,15 +837,82 @@
 			)
 		)
 		(pin "2"
-			(uuid "85d04e1d-3c83-4bdf-a174-72a1c2c4a661")
+			(uuid "76474dc9-1100-4dc6-8989-c19bbb471a2d")
 		)
 		(pin "1"
-			(uuid "912f232a-f815-481e-9db3-3143e3b727f5")
+			(uuid "f1a1337f-89d3-4493-8f5d-fe87b4b631ef")
 		)
 		(instances
 			(project "walt-j-shunt"
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349/bcc0eb4b-ef74-4b84-b6d5-2b5ad0313de0"
-					(reference "R2")
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 140.97 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfc57150-1631-47d3-aff0-f28e0b9d9fe3")
+		(property "Reference" "R12"
+			(at 140.97 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20r"
+			(at 140.97 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 140.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 140.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28255cec-265d-43ac-80ac-0c3e52301135")
+		)
+		(pin "1"
+			(uuid "ed0f8588-12b2-4729-9e84-47dc1bfebf73")
+		)
+		(instances
+			(project "walt-j-shunt"
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349/bcc0eb4b-ef74-4b84-b6d5-2b5ad0313de0"
+					(reference "R12")
 					(unit 1)
 				)
 			)

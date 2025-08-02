@@ -1171,22 +1171,10 @@
 		(uuid "d4f9ae4f-db24-46ab-8fb5-d69a02a9bbd8")
 	)
 	(junction
-		(at 143.51 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd41b2b2-6c1c-42aa-9d96-b5037ecd4071")
-	)
-	(junction
 		(at 130.81 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6fe8b77-c416-403d-976a-cdc796ce88a0")
-	)
-	(junction
-		(at 93.98 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef75d53b-8342-4fe1-a570-99367c71d639")
 	)
 	(wire
 		(pts
@@ -1280,16 +1268,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 134.62) (xy 143.51 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dc22889-9847-47fa-8bb8-e39d8be3530f")
-	)
-	(wire
-		(pts
 			(xy 170.18 137.16) (xy 170.18 153.67)
 		)
 		(stroke
@@ -1320,16 +1298,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 134.62) (xy 106.68 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d293ba-1426-49a3-9e58-7b2ceb93f6e3")
-	)
-	(wire
-		(pts
 			(xy 93.98 115.57) (xy 99.06 115.57)
 		)
 		(stroke
@@ -1347,16 +1315,6 @@
 			(type default)
 		)
 		(uuid "cf67e96a-fd88-4e1d-a03b-e664f72170ee")
-	)
-	(wire
-		(pts
-			(xy 93.98 134.62) (xy 93.98 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1c0d6e2-5177-479e-bacb-9d20546fb846")
 	)
 	(wire
 		(pts
@@ -1400,17 +1358,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 134.62) (xy 143.51 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa146362-c8e9-4598-8a78-6c43a443fb40")
-	)
-	(wire
-		(pts
-			(xy 143.51 134.62) (xy 157.48 134.62)
+			(xy 140.97 134.62) (xy 157.48 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1524,7 +1472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "067f4e10-680a-4e33-aeaf-e117feec0a58")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 130.81 140.97 0)
 			(effects
 				(font
@@ -1575,7 +1523,7 @@
 		(instances
 			(project "walt-j-shunt"
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1591,7 +1539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11164ddc-b3f0-43a7-b60c-e9a0a66069e6")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 109.22 125.1838 0)
 			(effects
 				(font
@@ -1645,7 +1593,7 @@
 		(instances
 			(project "Untitled"
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2143,7 +2091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "dc=14 ampl=.1 f=60"
+		(property "Sim.Params" "dc=18 ampl=.01 f=60"
 			(at 64.262 125.476 0)
 			(effects
 				(font
@@ -2308,7 +2256,7 @@
 		(instances
 			(project "walt-j-shunt"
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
@@ -2371,7 +2319,7 @@
 		(instances
 			(project "walt-j-shunt"
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
