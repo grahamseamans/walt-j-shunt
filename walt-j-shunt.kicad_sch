@@ -1141,10 +1141,22 @@
 		(uuid "11ae06d6-6f44-4ab8-bc58-3938ecf5b30f")
 	)
 	(junction
+		(at 93.98 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2549d718-e44b-4acc-ae7c-137798932d3c")
+	)
+	(junction
 		(at 140.97 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2823beae-65d0-41d7-9be4-04fb5bdd4e80")
+	)
+	(junction
+		(at 170.18 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d09bcaa-9a44-4599-8b41-e43d78aa312b")
 	)
 	(junction
 		(at 168.91 115.57)
@@ -1153,16 +1165,34 @@
 		(uuid "71ee1512-048c-49ba-9eab-a462fbe2adff")
 	)
 	(junction
+		(at 143.51 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93c9d0c5-74cc-4e4b-806b-f88e142ff8a5")
+	)
+	(junction
 		(at 106.68 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ab3eb9c-58ff-4079-8311-bc1e946d8839")
 	)
 	(junction
+		(at 106.68 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8cf19dd-d20e-4f14-8b0e-9bd63a3fa2d8")
+	)
+	(junction
 		(at 106.68 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba146d29-27f3-49e8-a030-f0e72fefe886")
+	)
+	(junction
+		(at 157.48 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcec53c3-16fb-46a1-a763-b2aad3115d4e")
 	)
 	(junction
 		(at 143.51 115.57)
@@ -1175,6 +1205,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6fe8b77-c416-403d-976a-cdc796ce88a0")
+	)
+	(junction
+		(at 140.97 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb29792b-d574-435b-b492-135823651200")
 	)
 	(wire
 		(pts
@@ -1198,6 +1234,26 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 134.62) (xy 143.51 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3365ad-9ef4-480e-969d-3abbead8cc9f")
+	)
+	(wire
+		(pts
+			(xy 106.68 134.62) (xy 106.68 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1826954e-b6f3-4f92-8115-979c2a8982bf")
+	)
+	(wire
+		(pts
 			(xy 106.68 115.57) (xy 106.68 124.46)
 		)
 		(stroke
@@ -1205,6 +1261,36 @@
 			(type default)
 		)
 		(uuid "261a41d4-c3cb-44a6-a567-fb46677512a2")
+	)
+	(wire
+		(pts
+			(xy 93.98 134.62) (xy 93.98 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31bd2041-5e4c-443f-a5ac-9c3d5ea134f7")
+	)
+	(wire
+		(pts
+			(xy 170.18 154.94) (xy 173.99 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3907c57e-5e14-4d5c-84d9-c2628ae3cab5")
+	)
+	(wire
+		(pts
+			(xy 157.48 154.94) (xy 170.18 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfa3c5a-7bb5-4200-b2be-1748a0f8fd11")
 	)
 	(wire
 		(pts
@@ -1225,6 +1311,16 @@
 			(type default)
 		)
 		(uuid "46930c77-f60f-4025-a506-00648174830a")
+	)
+	(wire
+		(pts
+			(xy 157.48 151.13) (xy 157.48 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cdd6f7-8190-4535-87e1-c9015844e362")
 	)
 	(wire
 		(pts
@@ -1258,6 +1354,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 134.62) (xy 157.48 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616c372e-4c18-4720-8bc5-fcdaf060cdc5")
+	)
+	(wire
+		(pts
 			(xy 157.48 125.73) (xy 157.48 134.62)
 		)
 		(stroke
@@ -1268,7 +1374,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 137.16) (xy 170.18 153.67)
+			(xy 93.98 152.4) (xy 93.98 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c33799a-384c-4ed1-ae4c-4552a7435d67")
+	)
+	(wire
+		(pts
+			(xy 170.18 137.16) (xy 170.18 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1298,6 +1414,26 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 154.94) (xy 106.68 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea370fd-610d-4cf3-97b3-40e94d6a8869")
+	)
+	(wire
+		(pts
+			(xy 140.97 147.32) (xy 140.97 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ffa82b-09ae-40af-a098-8b05db26df5b")
+	)
+	(wire
+		(pts
 			(xy 93.98 115.57) (xy 99.06 115.57)
 		)
 		(stroke
@@ -1305,6 +1441,26 @@
 			(type default)
 		)
 		(uuid "c780b8e7-f4e1-46dd-ba0a-68bf2c87a7d4")
+	)
+	(wire
+		(pts
+			(xy 143.51 134.62) (xy 157.48 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c934512c-09ff-4f0e-9b3d-afa6b1b95eba")
+	)
+	(wire
+		(pts
+			(xy 93.98 154.94) (xy 99.06 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9cca47-6e4a-44ff-aeaf-f77abed52169")
 	)
 	(wire
 		(pts
@@ -1318,6 +1474,26 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 154.94) (xy 106.68 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e8781d-dbff-4259-9e8e-c874f9c8003b")
+	)
+	(wire
+		(pts
+			(xy 106.68 154.94) (xy 113.03 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbee013b-11bf-4745-9ef3-e5499561c7e7")
+	)
+	(wire
+		(pts
 			(xy 168.91 132.08) (xy 170.18 132.08)
 		)
 		(stroke
@@ -1325,6 +1501,26 @@
 			(type default)
 		)
 		(uuid "e26969b1-43ad-491c-b528-92d579e1fa01")
+	)
+	(wire
+		(pts
+			(xy 140.97 154.94) (xy 157.48 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46b90d9-a156-40f0-8382-404d727eac06")
+	)
+	(wire
+		(pts
+			(xy 125.73 154.94) (xy 140.97 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ef997e-0b48-4ca8-a066-9b843d9f247a")
 	)
 	(wire
 		(pts
@@ -1358,7 +1554,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 134.62) (xy 157.48 134.62)
+			(xy 140.97 134.62) (xy 143.51 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1431,6 +1627,28 @@
 		(uuid "0a9ae4de-d8d9-436e-bea5-242f9d54ad99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 106.68 104.9648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "neg_reg_out"
+		(shape input)
+		(at 173.99 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "369b514f-8295-4664-be38-8d48fea530d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.3445 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,6 +1818,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 101.6 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17f29b1d-dcdf-46e8-b8c7-e6d6d92e3cf8")
+		(property "Reference" "R2"
+			(at 101.6 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1r"
+			(at 101.6 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dce8565f-af31-4ea7-8e19-cbd8ee553130")
+		)
+		(pin "1"
+			(uuid "6a0340f7-051c-434e-9008-7e8165da5422")
+		)
+		(instances
+			(project "walt-j-shunt"
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 175.26 134.62 0)
 		(unit 1)
@@ -1691,7 +1976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20ma"
+		(property "Value" "2ma"
 			(at 161.29 121.9199 0)
 			(effects
 				(font
@@ -1764,6 +2049,182 @@
 			(project "Untitled"
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
 					(reference "I1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VSIN")
+		(at 93.98 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67c40cb5-360e-456e-ac7a-25462f3f53fb")
+		(property "Reference" "V2"
+			(at 97.79 144.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSIN"
+			(at 97.79 147.1901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage source, sinusoidal"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "dc=18 ampl=.01 f=60"
+			(at 64.262 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Type" "SIN"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8720b19-1079-469b-bf19-4660d66f49a1")
+		)
+		(pin "1"
+			(uuid "34fd72c1-1be4-4815-9e1f-ce22873c771b")
+		)
+		(instances
+			(project "walt-j-shunt"
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
+					(reference "V2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 106.68 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77705b04-92f0-495a-b5c3-9ae13b89a8ab")
+		(property "Reference" "C2"
+			(at 109.22 144.2338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 109.22 146.7738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Samacsys:B32529C105J"
+			(at 106.68 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 106.68 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d4829062-98ab-4899-8e7b-2321aa2e5978")
+		)
+		(pin "1"
+			(uuid "91a8083e-4687-48a0-9143-7993d6dedfe2")
+		)
+		(instances
+			(project "walt-j-shunt"
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -1959,6 +2420,103 @@
 			(project "Untitled"
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:IDC")
+		(at 157.48 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccc64da1-907d-4349-8f12-c71ee63bec19")
+		(property "Reference" "I2"
+			(at 161.29 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2ma"
+			(at 161.29 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Samacsys:395443002"
+			(at 157.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 157.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current source, DC"
+			(at 157.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 157.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 157.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "I"
+			(at 157.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63a3a25f-683d-4d70-aea1-95b7bfc9821c")
+		)
+		(pin "2"
+			(uuid "abc9f046-1ef3-434f-b372-834f7b67d366")
+		)
+		(instances
+			(project "walt-j-shunt"
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
+					(reference "I2")
 					(unit 1)
 				)
 			)
@@ -2194,6 +2752,132 @@
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
 					(reference "H1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 140.97)
+		(size 11.43 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c89332f-aeb9-4d3c-8600-1ad405dc3129")
+		(property "Sheetname" "reg1"
+			(at 135.89 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "reg.kicad_sch"
+			(at 135.89 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "+" input
+			(at 143.51 140.97 90)
+			(uuid "f6095364-382b-4785-8a02-1bba56689475")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-" input
+			(at 140.97 147.32 270)
+			(uuid "f5b49a2f-3190-498b-91ca-1794ff0cedb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "walt-j-shunt"
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 151.13)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67f5dd9e-be30-4e31-8eba-73fe651acf7d")
+		(property "Sheetname" "current_source1"
+			(at 113.03 150.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_source.kicad_sch"
+			(at 113.03 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "+" input
+			(at 113.03 154.94 180)
+			(uuid "9a3bb4d7-6af8-4421-bdb8-9b4c4459d761")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-" input
+			(at 125.73 154.94 0)
+			(uuid "0b565382-3809-4020-849a-e1248618856f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "walt-j-shunt"
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349"
+					(page "4")
 				)
 			)
 		)

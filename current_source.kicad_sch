@@ -132,18 +132,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET_Other:Q_NMOS_Depletion_DGS"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -151,8 +149,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_NMOS_Depletion_DGS"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -161,24 +159,6 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -187,34 +167,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -223,7 +176,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "Description" "Depletion-mode N-channel MOSFET, drain/gate/source"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_Depletion_DGS_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -250,31 +221,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.762 2.286) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -390,7 +337,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
+			(symbol "Q_NMOS_Depletion_DGS_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -459,7 +406,7 @@
 		(at 138.43 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "998900ff-a4a7-47fa-8ae4-9223deb73b94")
+		(uuid "82eb9e12-dba4-4f0d-9d73-adb832e6a524")
 	)
 	(junction
 		(at 143.51 97.79)
@@ -496,16 +443,6 @@
 			(type default)
 		)
 		(uuid "2794dd94-312c-4dc1-bc0b-78ca0e230ace")
-	)
-	(wire
-		(pts
-			(xy 138.43 92.71) (xy 138.43 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ff0896e-7860-4323-b213-0f8cef1a3938")
 	)
 	(wire
 		(pts
@@ -559,13 +496,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 102.87) (xy 138.43 97.79)
+			(xy 138.43 92.71) (xy 138.43 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cef11b1d-05fb-4558-9039-217ae15b4905")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26f59cc-8ffc-4ecd-8317-d2bb74404620")
 	)
 	(hierarchical_label "-"
 		(shape input)
@@ -601,122 +548,6 @@
 		(uuid "f92b19f3-5913-446d-acf9-a196969b4e56")
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 133.35 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02294e94-2cf1-45ce-9764-bca7bb6aa664")
-		(property "Reference" "Q1"
-			(at 133.35 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 133.35 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 130.81 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 146.05 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 133.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 150.495 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "MOS1"
-			(at 152.4 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/Users/cibo/pcb/spice/mos.lib"
-			(at 133.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "DN2540"
-			(at 133.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a8c36619-0910-48ca-9eac-4b5f67aafb92")
-		)
-		(pin "2"
-			(uuid "51b24deb-e936-439e-9c7d-bb6a4c8e553a")
-		)
-		(pin "1"
-			(uuid "402e4b3e-b2da-492b-8b56-bfda3712e476")
-		)
-		(instances
-			(project "walt-j-shunt"
-				(path "/c8b32050-fabe-49d4-b213-dd23b367e349/bcc0eb4b-ef74-4b84-b6d5-2b5ad0313de0"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 140.97 111.76 90)
 		(unit 1)
@@ -726,7 +557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8018b9a4-1e04-4687-aba3-1ba15f2012f8")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 140.97 106.68 90)
 			(effects
 				(font
@@ -770,15 +601,139 @@
 			)
 		)
 		(pin "2"
-			(uuid "a4539053-27db-44cb-b38b-35289899eeaa")
+			(uuid "e42fdfb5-4853-4261-b71b-e8cfdb31505b")
 		)
 		(pin "1"
-			(uuid "7f2eb3a8-8b55-45ec-a3cd-fbba0e7a15f9")
+			(uuid "20b08b70-18a9-43bb-b044-f5cadb52b825")
 		)
 		(instances
 			(project "walt-j-shunt"
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349/67f5dd9e-be30-4e31-8eba-73fe651acf7d"
+					(reference "R17")
+					(unit 1)
+				)
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349/bcc0eb4b-ef74-4b84-b6d5-2b5ad0313de0"
-					(reference "R3")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_DGS")
+		(at 133.35 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97555334-e370-4ebe-9c00-a7235f11453e")
+		(property "Reference" "Q1"
+			(at 133.35 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DN2540"
+			(at 133.35 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Depletion-mode N-channel MOSFET, drain/gate/source"
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/cibo/pcb/spice/mos.lib"
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "DN2540"
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "MOS1"
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "90bbd574-a0c5-4aa6-9abf-19978df1f8cf")
+		)
+		(pin "2"
+			(uuid "34d35a64-31f8-4cf7-9c46-51af063be4fd")
+		)
+		(pin "1"
+			(uuid "091b20f2-84d0-4e6d-a8b0-8042c3585233")
+		)
+		(instances
+			(project "walt-j-shunt"
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349/67f5dd9e-be30-4e31-8eba-73fe651acf7d"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349/bcc0eb4b-ef74-4b84-b6d5-2b5ad0313de0"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -793,7 +748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d22de9f5-9369-459f-8ac2-e5b6e12e104c")
-		(property "Reference" "R13"
+		(property "Reference" "R4"
 			(at 140.97 97.79 90)
 			(effects
 				(font
@@ -837,15 +792,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "76474dc9-1100-4dc6-8989-c19bbb471a2d")
+			(uuid "cba7076c-48dd-43cf-8391-ae32a27e913b")
 		)
 		(pin "1"
-			(uuid "f1a1337f-89d3-4493-8f5d-fe87b4b631ef")
+			(uuid "1150a54c-b51f-400e-9d91-c50e6137b5c9")
 		)
 		(instances
 			(project "walt-j-shunt"
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349/67f5dd9e-be30-4e31-8eba-73fe651acf7d"
+					(reference "R16")
+					(unit 1)
+				)
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349/bcc0eb4b-ef74-4b84-b6d5-2b5ad0313de0"
-					(reference "R13")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -860,7 +819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfc57150-1631-47d3-aff0-f28e0b9d9fe3")
-		(property "Reference" "R12"
+		(property "Reference" "R3"
 			(at 140.97 87.63 90)
 			(effects
 				(font
@@ -904,15 +863,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "28255cec-265d-43ac-80ac-0c3e52301135")
+			(uuid "aaa1a1d3-677a-46be-a008-9dbdb54f3710")
 		)
 		(pin "1"
-			(uuid "ed0f8588-12b2-4729-9e84-47dc1bfebf73")
+			(uuid "a9a9358f-e2ba-43ad-992a-5fba28e3e9b9")
 		)
 		(instances
 			(project "walt-j-shunt"
+				(path "/c8b32050-fabe-49d4-b213-dd23b367e349/67f5dd9e-be30-4e31-8eba-73fe651acf7d"
+					(reference "R15")
+					(unit 1)
+				)
 				(path "/c8b32050-fabe-49d4-b213-dd23b367e349/bcc0eb4b-ef74-4b84-b6d5-2b5ad0313de0"
-					(reference "R12")
+					(reference "R3")
 					(unit 1)
 				)
 			)
